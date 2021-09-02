@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.app_wrapper {
+    display: grid;
+    grid-template-areas:
+    "h h"
+    "n c";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-gap: 15px;
+}
+
+.app_wrapper_content {
+    grid-area: c;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}

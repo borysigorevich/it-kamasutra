@@ -1,0 +1,30 @@
+.navbar {
+    grid-area: n;
+    background-color: seagreen;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.item {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.item a.active {
+    color: gold;
+}
+
+.friend_block{
+    margin-top: 15px;
+}
+
+.item_friends {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,27 @@
+.users {
+    padding: 20px
+}
+
+.users__box {
+    margin-top: 15px;
+}
+
+.users__span {
+    margin-left: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.users__span--selected {
+    color: #fff;
+}
+
+.users__api {
+
+}
+
+.users__api-svg {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}

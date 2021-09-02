@@ -1,0 +1,9 @@
+.friendBlock img {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.img_box {
+    padding-left: 5px;
+}

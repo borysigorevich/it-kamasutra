@@ -1,0 +1,62 @@
+.user {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.user__side {
+    align-items: center;
+    margin-right: 15px;
+    min-width: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user__side button {
+    background-color: teal;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px;
+    min-width: 90px;
+    border: none;
+    cursor: pointer;
+}
+
+.user__side button:hover {
+    box-shadow: 2px 2px #000;
+    transition: 200ms linear;
+}
+
+.user__icon {
+    font-size: 40px !important;
+    color: burlywood;
+    margin-bottom: 3px;
+}
+
+.user__img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 3px;
+}
+
+.user__content {
+    min-width: 500px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__name {
+    color: #fff;
+}
+
+.user__residence {
+    max-width: min-content;
+}
+
+.user__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

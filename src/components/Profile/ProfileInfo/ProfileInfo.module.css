@@ -1,0 +1,14 @@
+.content__img {
+    width: 130px;
+    height: 130px;
+    margin-bottom: -4px;
+    object-fit: contain;
+}
+
+.descriptionBlock {
+    padding: 10px;
+}
+
+.profile__info_img {
+    font-size: 100px !important;
+}
