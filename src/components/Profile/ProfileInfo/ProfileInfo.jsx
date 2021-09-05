@@ -2,6 +2,7 @@ import s from './ProfileInfo.module.css'
 import Preloader from "../../common/Preloader/Preloader";
 import ImageSearchIcon from '@material-ui/icons/ImageSearch';
 import ProfileStatus from "./ProfileStatus";
+import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 
 export const ProfileInfo = (props) => {
 
@@ -12,7 +13,7 @@ export const ProfileInfo = (props) => {
                 <ImageSearchIcon className={s.profile__info_img}/>) : <Preloader/>}
         </div>
         <div className={s.descriptionBlock}>
-            <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
+            <ProfileStatusWithHooks status={props.status} updateStatus={props.updateStatus}/>
         </div>
     </div>
 }
